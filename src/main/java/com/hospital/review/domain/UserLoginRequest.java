@@ -1,17 +1,11 @@
 package com.hospital.review.domain;
 
 import lombok.AllArgsConstructor;
-import lombok.Builder;
 import lombok.Getter;
-import lombok.NoArgsConstructor;
 
 @AllArgsConstructor
-@NoArgsConstructor
 @Getter
-@Builder
-public class UserDto {
-    private Long id;
+public class UserLoginRequest {
     private String userName;
     private String password;
-    private String email;
 }

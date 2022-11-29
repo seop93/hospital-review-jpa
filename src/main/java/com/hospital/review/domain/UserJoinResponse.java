@@ -6,7 +6,6 @@ import lombok.NoArgsConstructor;
 
 @AllArgsConstructor
 @Getter
-@NoArgsConstructor
 public class UserJoinResponse {
     private String userName;
     private String email;
